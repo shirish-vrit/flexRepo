@@ -1,3 +1,43 @@
 p {
   color: red;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.children {
+  border: 1px solid red;
+  margin: 10px;
+  padding: 10px;
+}
+.achild {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+
+.bg {
+  border: 1px solid green;
+}
